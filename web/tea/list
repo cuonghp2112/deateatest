@@ -40,13 +40,13 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible" />
 <meta content="telephone=no" name="format-detection" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-<script src="/gongcha/assets/js/jquery-2.2.4.min.js"></script>
-<script src="/gongcha/assets/js/lib/wow.js"></script>
-<script src="/gongcha/assets/js/common.js"></script>
-<link type="text/css" href="/gongcha/assets/css/g_goncha.css" rel="stylesheet" />
-<script type="text/javascript" src="/gongcha/assets/js/check.js"></script>
-<script type="text/javascript" src="/gongcha/assets/js/jquery.form.min.js" charset="utf-8"></script>
-<link rel="shortcut icon" type="image/x-icon" href="/gongcha/assets/images/common/favicon.ico" /><!--2021-05-20::추가-->
+<script src="./assets/js/jquery-2.2.4.min.js"></script>
+<script src="./assets/js/lib/wow.js"></script>
+<script src="./assets/js/common.js"></script>
+<link type="text/css" href="./assets/css/g_goncha.css" rel="stylesheet" />
+<script type="text/javascript" src="./assets/js/check.js"></script>
+<script type="text/javascript" src="./assets/js/jquery.form.min.js" charset="utf-8"></script>
+<link rel="shortcut icon" type="image/x-icon" href="./assets/images/common/favicon.ico" /><!--2021-05-20::추가-->
 
 </head>
 <body>
@@ -74,16 +74,16 @@
 
 <div id="wrap" class="sub">
 	<header id="header" class="header" data-wow-duration="2s">
-		<h1><a href="/gongcha/web/main" class="logo"><span class="blind">Goncha</span></a></h1>
+		<h1><a href="./web/main" class="logo"><span class="blind">Goncha</span></a></h1>
 		<nav id="menu" class="nav">
 			<button type="button" class="btn menu-open"><span class="blind">menu</span></button>
 			<ul class="gnb">
-				<li><a href="/gongcha/web/story">Our Story</a></li><!--[D] li.on  -->
-				<li><a href="/gongcha/web/value">Our Philosophy</a></li>
-				<li class="on"><a href="/gongcha/web/tea/list">Our Tea</a></li>
-				<li><a href="/gongcha/web/store/list">Our Stores</a></li>
-				<li><a href="/gongcha/web/franchising/list">Franchise Opportunities</a></li>
-				<li><a href="/gongcha/web/contact/list">Contact Us</a></li>
+				<li><a href="./web/story">Our Story</a></li><!--[D] li.on  -->
+				<li><a href="./web/value">Our Philosophy</a></li>
+				<li class="on"><a href="./web/tea/list">Our Tea</a></li>
+				<li><a href="./web/store/list">Our Stores</a></li>
+				<li><a href="./web/franchising/list">Franchise Opportunities</a></li>
+				<li><a href="./web/contact/list">Contact Us</a></li>
 			</ul>
 			<button type="button" class="btn menu-close"><span class="blind">close</span></button>
 		</nav>
@@ -111,13 +111,13 @@ Or try our aromatic Jasmine Green tea, Earl Grey tea, or Alisan tea.
 						</p>
 					</div>
 					<div class="img-wrap wow fadeInUp">
-						<img srcset="/gongcha/assets/upload/productMgmt/prdct20210226/20210226091448888001.jpg 750w,
-									/gongcha/assets/upload/productMgmt/prdct20210226/20210226091448888001.jpg 1024w,
-									/gongcha/assets/upload/productMgmt/prdct20210226/20210226091448888001.jpg 1025w"
+						<img srcset="./assets/upload/productMgmt/prdct20210226/20210226091448888001.jpg 750w,
+									./assets/upload/productMgmt/prdct20210226/20210226091448888001.jpg 1024w,
+									./assets/upload/productMgmt/prdct20210226/20210226091448888001.jpg 1025w"
 							sizes="(max-width: 750px) 750px,
 									(max-width: 1024px) 1024px,
 									1025px"
-							src="/gongcha/assets/upload/productMgmt/prdct20210226/20210226091448888001.jpg" alt="Original Tea"
+							src="./assets/upload/productMgmt/prdct20210226/20210226091448888001.jpg" alt="Original Tea"
 							class="img" />
 					</div>
 				</div>
@@ -133,13 +133,13 @@ Or choose our smooth Jasmine Green Milk tea. Milk tea is where the fun begins.
 						</p>
 					</div>
 					<div class="img-wrap wow fadeInUp">
-						<img srcset="/gongcha/assets/upload/productMgmt/prdct20210119/20210119162415093008.png 750w,
-									/gongcha/assets/upload/productMgmt/prdct20210119/20210119162415093008.png 1024w,
-									/gongcha/assets/upload/productMgmt/prdct20210119/20210119162415093008.png 1025w"
+						<img srcset="./assets/upload/productMgmt/prdct20210119/20210119162415093008.png 750w,
+									./assets/upload/productMgmt/prdct20210119/20210119162415093008.png 1024w,
+									./assets/upload/productMgmt/prdct20210119/20210119162415093008.png 1025w"
 							sizes="(max-width: 750px) 750px,
 									(max-width: 1024px) 1024px,
 									1025px"
-							src="/gongcha/assets/upload/productMgmt/prdct20210119/20210119162415093008.png" alt="Milk Tea"
+							src="./assets/upload/productMgmt/prdct20210119/20210119162415093008.png" alt="Milk Tea"
 							class="img" />
 					</div>
 				</div>
@@ -153,13 +153,13 @@ Choose from our signature sweet and salty milk foam, cheese foam, chewy  pearls,
 						</p>
 					</div>
 					<div class="img-wrap wow fadeInUp">
-						<img srcset="/gongcha/assets/upload/productMgmt/prdct20210126/20210126164311224002.jpg 750w,
-									/gongcha/assets/upload/productMgmt/prdct20210126/20210126164311224002.jpg 1024w,
-									/gongcha/assets/upload/productMgmt/prdct20210126/20210126164311224002.jpg 1025w"
+						<img srcset="./assets/upload/productMgmt/prdct20210126/20210126164311224002.jpg 750w,
+									./assets/upload/productMgmt/prdct20210126/20210126164311224002.jpg 1024w,
+									./assets/upload/productMgmt/prdct20210126/20210126164311224002.jpg 1025w"
 							sizes="(max-width: 750px) 750px,
 									(max-width: 1024px) 1024px,
 									1025px"
-							src="/gongcha/assets/upload/productMgmt/prdct20210126/20210126164311224002.jpg" alt="Toppings"
+							src="./assets/upload/productMgmt/prdct20210126/20210126164311224002.jpg" alt="Toppings"
 							class="img" />
 					</div>
 				</div>
@@ -203,12 +203,12 @@ Choose from our signature sweet and salty milk foam, cheese foam, chewy  pearls,
 		<h2 class="logo"><span class="blind">Goncha</span></h2>
 		<div>
 			<ul>
-				<li><a href="/gongcha/web/story">Our Story</a></li>
-				<li><a href="/gongcha/web/value">Our Philosophy</a></li>
-				<li><a href="/gongcha/web/tea/list">Our Tea</a></li>
-				<li><a href="/gongcha/web/store/list">Our Stores</a></li>
-				<li><a href="/gongcha/web/franchising/list">Franchise Opportunities</a></li>
-				<li><a href="/gongcha/web/contact/list">Contact Us</a></li>
+				<li><a href="./web/story">Our Story</a></li>
+				<li><a href="./web/value">Our Philosophy</a></li>
+				<li><a href="./web/tea/list">Our Tea</a></li>
+				<li><a href="./web/store/list">Our Stores</a></li>
+				<li><a href="./web/franchising/list">Franchise Opportunities</a></li>
+				<li><a href="./web/contact/list">Contact Us</a></li>
 			</ul>
 		</div>
 	</div>
@@ -224,9 +224,9 @@ Choose from our signature sweet and salty milk foam, cheese foam, chewy  pearls,
 	</div>
 	<div class="txt-links">
 		<ul>
-			<li><a href="/gongcha/web/privacy">Privacy Policy</a></li>
-			<li><a href="/gongcha/web/modern">Modern Slavery Statement</a></li>
-			<li><a href="/gongcha/web/add">Additional Policies</a></li>
+			<li><a href="./web/privacy">Privacy Policy</a></li>
+			<li><a href="./web/modern">Modern Slavery Statement</a></li>
+			<li><a href="./web/add">Additional Policies</a></li>
 		</ul>
 	</div>
 </footer>
