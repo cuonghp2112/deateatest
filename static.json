@@ -1,5 +1,5 @@
 {
     "routes": {
-      "/": "/web/main"
+      "/**": "/web/main"
     }
   }
