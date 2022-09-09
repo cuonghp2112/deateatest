@@ -40,13 +40,13 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible" />
 <meta content="telephone=no" name="format-detection" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-<script src="./assets/js/jquery-2.2.4.min.js"></script>
-<script src="./assets/js/lib/wow.js"></script>
-<script src="./assets/js/common.js"></script>
-<link type="text/css" href="./assets/css/g_goncha.css" rel="stylesheet" />
-<script type="text/javascript" src="./assets/js/check.js"></script>
-<script type="text/javascript" src="./assets/js/jquery.form.min.js" charset="utf-8"></script>
-<link rel="shortcut icon" type="image/x-icon" href="./assets/images/common/favicon.ico" /><!--2021-05-20::추가-->
+<script src="/assets/js/jquery-2.2.4.min.js"></script>
+<script src="/assets/js/lib/wow.js"></script>
+<script src="/assets/js/common.js"></script>
+<link type="text/css" href="/assets/css/g_goncha.css" rel="stylesheet" />
+<script type="text/javascript" src="/assets/js/check.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.form.min.js" charset="utf-8"></script>
+<link rel="shortcut icon" type="image/x-icon" href="/assets/images/common/favicon.ico" /><!--2021-05-20::추가-->
 
 <script type="text/javascript">
 // <![CDATA[  
@@ -143,16 +143,16 @@
 
 <div id="wrap" class="sub">
 <header id="header" class="header" data-wow-duration="2s">
-	<h1><a href="./web/main" class="logo"><span class="blind">Goncha</span></a></h1>
+	<h1><a href="/web/main" class="logo"><span class="blind">Goncha</span></a></h1>
 	<nav id="menu" class="nav">
 		<button type="button" class="btn menu-open"><span class="blind">menu</span></button>
 		<ul class="gnb">
-			<li><a href="./web/story">Our Story</a></li><!--[D] li.on  -->
-			<li><a href="./web/value">Our Philosophy</a></li>
-			<li><a href="./web/tea/list">Our Tea</a></li>
-			<li><a href="./web/store/list">Our Stores</a></li>
-			<li><a href="./web/franchising/list">Franchise Opportunities</a></li>
-			<li class="on"><a href="./web/contact/list">Contact Us</a></li>
+			<li><a href="/web/story">Our Story</a></li><!--[D] li.on  -->
+			<li><a href="/web/value">Our Philosophy</a></li>
+			<li><a href="/web/tea/list">Our Tea</a></li>
+			<li><a href="/web/store/list">Our Stores</a></li>
+			<li><a href="/web/franchising/list">Franchise Opportunities</a></li>
+			<li class="on"><a href="/web/contact/list">Contact Us</a></li>
 		</ul>
 		<button type="button" class="btn menu-close"><span class="blind">close</span></button>
 	</nav>
@@ -217,7 +217,7 @@
 	 
 	
 	<div class="wrap-loading display-none">
-    	<div><img src="./assets/images/common/loading.gif" /></div>
+    	<div><img src="/assets/images/common/loading.gif" /></div>
 	</div>  
 
 
@@ -244,12 +244,12 @@
 		<h2 class="logo"><span class="blind">Goncha</span></h2>
 		<div>
 			<ul>
-				<li><a href="./web/story">Our Story</a></li>
-				<li><a href="./web/value">Our Philosophy</a></li>
-				<li><a href="./web/tea/list">Our Tea</a></li>
-				<li><a href="./web/store/list">Our Stores</a></li>
-				<li><a href="./web/franchising/list">Franchise Opportunities</a></li>
-				<li><a href="./web/contact/list">Contact Us</a></li>
+				<li><a href="/web/story">Our Story</a></li>
+				<li><a href="/web/value">Our Philosophy</a></li>
+				<li><a href="/web/tea/list">Our Tea</a></li>
+				<li><a href="/web/store/list">Our Stores</a></li>
+				<li><a href="/web/franchising/list">Franchise Opportunities</a></li>
+				<li><a href="/web/contact/list">Contact Us</a></li>
 			</ul>
 		</div>
 	</div>
@@ -265,9 +265,9 @@
 	</div>
 	<div class="txt-links">
 		<ul>
-			<li><a href="./web/privacy">Privacy Policy</a></li>
-			<li><a href="./web/modern">Modern Slavery Statement</a></li>
-			<li><a href="./web/add">Additional Policies</a></li>
+			<li><a href="/web/privacy">Privacy Policy</a></li>
+			<li><a href="/web/modern">Modern Slavery Statement</a></li>
+			<li><a href="/web/add">Additional Policies</a></li>
 		</ul>
 	</div>
 </footer>

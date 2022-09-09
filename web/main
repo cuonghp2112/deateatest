@@ -19,7 +19,7 @@
 <html lang="en">
 <head>
 <title>Gong cha Global</title>
-<link type="text/css" href="./assets/css/lib/fullpage.css" rel="stylesheet" />
+<link type="text/css" href="/assets/css/lib/fullpage.css" rel="stylesheet" />
 
 
 
@@ -41,13 +41,13 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible" />
 <meta content="telephone=no" name="format-detection" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-<script src="./assets/js/jquery-2.2.4.min.js"></script>
-<script src="./assets/js/lib/wow.js"></script>
-<script src="./assets/js/common.js"></script>
-<link type="text/css" href="./assets/css/g_goncha.css" rel="stylesheet" />
-<script type="text/javascript" src="./assets/js/check.js"></script>
-<script type="text/javascript" src="./assets/js/jquery.form.min.js" charset="utf-8"></script>
-<link rel="shortcut icon" type="image/x-icon" href="./assets/images/common/favicon.ico" /><!--2021-05-20::추가-->
+<script src="/assets/js/jquery-2.2.4.min.js"></script>
+<script src="/assets/js/lib/wow.js"></script>
+<script src="/assets/js/common.js"></script>
+<link type="text/css" href="/assets/css/g_goncha.css" rel="stylesheet" />
+<script type="text/javascript" src="/assets/js/check.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.form.min.js" charset="utf-8"></script>
+<link rel="shortcut icon" type="image/x-icon" href="/assets/images/common/favicon.ico" /><!--2021-05-20::추가-->
 
 <script type="text/javascript">
 function fnLink( _burl, _tergetYn){
@@ -88,16 +88,16 @@ function fnLink( _burl, _tergetYn){
 
 	<div id="wrap" class="main">
 	<header id="header" class="header white" data-wow-duration="2s">
-	<h1><a href="./web/main" class="logo"><span class="blind">Goncha</span></a></h1>
+	<h1><a href="/web/main" class="logo"><span class="blind">Goncha</span></a></h1>
 	<nav id="menu" class="nav">
 		<button type="button" class="btn menu-open"><span class="blind">menu</span></button>
 		<ul class="gnb">
-			<li><a href="./web/story">Our Story</a></li><!--[D] li.on  -->
-			<li><a href="./web/value">Our Philosophy</a></li>
-			<li><a href="./web/tea/list">Our Tea</a></li>
-			<li><a href="./web/store/list">Our Stores</a></li>
-			<li><a href="./web/franchising/list">Franchise Opportunities</a></li>
-			<li><a href="./web/contact/list">Contact Us</a></li>
+			<li><a href="/web/story">Our Story</a></li><!--[D] li.on  -->
+			<li><a href="/web/value">Our Philosophy</a></li>
+			<li><a href="/web/tea/list">Our Tea</a></li>
+			<li><a href="/web/store/list">Our Stores</a></li>
+			<li><a href="/web/franchising/list">Franchise Opportunities</a></li>
+			<li><a href="/web/contact/list">Contact Us</a></li>
 		</ul>
 		<button type="button" class="btn menu-close"><span class="blind">close</span></button>
 	</nav>
@@ -110,14 +110,14 @@ function fnLink( _burl, _tergetYn){
 						
 							
 								<li class="swiper-slide">
-									<div style="background-image:url('./assets/upload/main/20210831/20210831044706254001.png');" class="bg-area only-pc"></div>
-									<div style="background-image:url('./assets/upload/main/20210831/20210831044706271002.png');" class="bg-area only-tb"></div>
-									<div style="background-image:url('./assets/upload/main/20210831/20210831044706274003.png');" class="bg-area only-mo"></div>
+									<div style="background-image:url('/assets/upload/main/20210831/20210831044706254001.png');" class="bg-area only-pc"></div>
+									<div style="background-image:url('/assets/upload/main/20210831/20210831044706271002.png');" class="bg-area only-tb"></div>
+									<div style="background-image:url('/assets/upload/main/20210831/20210831044706274003.png');" class="bg-area only-mo"></div>
 									<div class="content-wrap">
 										<p class="text-label">OUR STORY</p>
 										<h2 class="section-title large">Brewing Happiness</h2>
 											
-												<a href="#" onclick="javascript:fnLink('https://www.gong-cha.com./web/story', 'N'); return false;" class="btn normal">Read More<i class="ico arr"></i></a>
+												<a href="#" onclick="javascript:fnLink('https://www.gong-cha.com/web/story', 'N'); return false;" class="btn normal">Read More<i class="ico arr"></i></a>
 											
 									</div>
 				 				</li>
@@ -136,8 +136,8 @@ function fnLink( _burl, _tergetYn){
 				<div class="content-wrap">
 					<p class="text-label">OUR PHILOSOPHY</p>
 					<h2 class="section-title medium" data-wow-delay="400ms">To inspire <br class="only-mo">the human spirit<br>and create <br class="only-mo">happiness</h2>
-					<div class="img-wrap" data-wow-delay="800ms"><img src="./assets/images/main/img-values.jpg" alt="product image" class="img"></div>
-					<a href="./web/value" class="btn normal" data-wow-delay="1200ms">Read More<i class="ico arr"></i></a>
+					<div class="img-wrap" data-wow-delay="800ms"><img src="/assets/images/main/img-values.jpg" alt="product image" class="img"></div>
+					<a href="/web/value" class="btn normal" data-wow-delay="1200ms">Read More<i class="ico arr"></i></a>
 				</div>
 			</div>
 
@@ -147,7 +147,7 @@ function fnLink( _burl, _tergetYn){
 					<p class="text-label">OUR TEA</p>
 					<h2 class="section-title medium">Satisfaction beyond <br>expectation</h2>
 					<p class="text">Discover Over <br class="only-mo">600 Different Combinations</p>
-					<a href="./web/tea/list" class="btn normal">Read More<i class="ico arr"></i></a>
+					<a href="/web/tea/list" class="btn normal">Read More<i class="ico arr"></i></a>
 				</div>
 
 			</div>
@@ -157,7 +157,7 @@ function fnLink( _burl, _tergetYn){
 					<p class="text-label">OUR STORES</p>
 					<h2 class="section-title medium">Find a Gong cha <br class="only-mo">store near you</h2>
 					<a class="img-wrap map" href="./store/list">
-						<img src="./assets/images/common/img-map.png" alt="world map" class="img">
+						<img src="/assets/images/common/img-map.png" alt="world map" class="img">
 
 						<span class="map-point taiwan animated flash"><i class="ico map"></i></span>
 						<span class="map-point canada animated flash"><i class="ico map"></i></span>
@@ -185,7 +185,7 @@ function fnLink( _burl, _tergetYn){
 					
 					<p class="text-label-0509">FRANCHISE OPPORTUNITIES</p>					
 					<h2 class="section-title medium line-title-0509">Become a<br>Gong cha Partner</h2>
-					<a href="./web/franchising/list" class="btn normal">Franchise Opportunities<i class="ico arr"></i></a>
+					<a href="/web/franchising/list" class="btn normal">Franchise Opportunities<i class="ico arr"></i></a>
 				</div>
 			</div>
 
@@ -245,8 +245,8 @@ function fnLink( _burl, _tergetYn){
 	</div>
 		<!-- // wrap -->
 
-	<script src="./assets/js/lib/fullpage.js"></script>
-	<script src="./assets/js/lib/swiper.min.js"></script><!--20210120 ie error로 파일 변경  -->
+	<script src="/assets/js/lib/fullpage.js"></script>
+	<script src="/assets/js/lib/swiper.min.js"></script><!--20210120 ie error로 파일 변경  -->
 	<script>
 		//fullpage position
 		var focusableElementsString = 'a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, [tabindex="0"], [contenteditable]';
