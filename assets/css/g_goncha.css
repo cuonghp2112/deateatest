@@ -944,14 +944,14 @@ td[data-column="status"]{color:#db5166;}
 #content.home .section.tea .bg-area{position:absolute;top:0;left:0;width:100%;height:100%;background: url('../upload/main/20Sep2022/web_3.png') no-repeat center 0;
 	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
 }
-/* @media (max-width:750px){
+@media (max-width:750px){
 	#content.home .section.store .bg-area{background: url('../upload/main/20Sep2022/menu.png') no-repeat center 0;
-		-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 100% 100%;}
-} */
+		-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 100% auto;}
+}
 
 .menu-mo-1{
-	top:0;background: url('../upload/main/20Sep2022/menu_1.png') no-repeat center 0;
-		-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 100% 100%;
+	top:0;background: url('../upload/main/20Sep2022/menu.png') no-repeat center 0;
+		-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 100% auto;
 }
 
 .menu-mo-2{
@@ -965,11 +965,18 @@ td[data-column="status"]{color:#db5166;}
 }
 
 
-@media (min-width:750px){
+@media (min-width:750px) and (max-width:1024px){
+	#content.home .section.store .bg-area{position:absolute;left:auto;right:auto;bottom:10px;width:100%;height:100%;background: url('../upload/main/20Sep2022/menu.png') no-repeat center 0;
+		-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 100% auto
+	}
+}
+
+@media (min-width:1024px){
 	#content.home .section.store .bg-area{position:absolute;left:auto;right:auto;bottom:10px;width:100%;height:100%;background: url('../upload/main/20Sep2022/menu.png') no-repeat center 0;
 		-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 90% 100%;
 	}
 }
+
 #content.home .section.values .bg-area{position:absolute;top:0;left:0;width:100%;height:100%;background: url('../upload/main/20Sep2022/web_2.png') no-repeat center 0;
 	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
 }
