@@ -165,8 +165,8 @@ function fnLink( _burl, _tergetYn){
 						<div class="swiper-slide slide_1 bg-area only-pc"></div>
 						<div class="swiper-slide slide_2 bg-area only-tb"></div>
 						<div class="swiper-slide slide_3 only-mo menu-mo-1"></div>
-						<div class="swiper-slide slide_4 only-mo menu-mo-2"></div>
-						<div class="swiper-slide slide_5 only-mo menu-mo-3"></div>
+						<!-- <div class="swiper-slide slide_4 only-mo menu-mo-2"></div>
+						<div class="swiper-slide slide_5 only-mo menu-mo-3"></div> -->
 						<div class="swiper-pagination"></div>
 					</div>
 					<!-- <div class="bg-area">
