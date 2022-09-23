@@ -18,7 +18,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Gong cha Global</title>
+<title>Dear Tea - Trà sữa thực - hương vị thực</title>
 
 
 
@@ -82,9 +82,9 @@
 		
 	 // ajaxSubmit 통신 후 처리 작업
 		var fnApplyCallback = function(objResponse, statusText, xhr, $from) {
-			 
+			console.log(statusText);
 			if (statusText == "success") {
-				if (objResponse["result"] == 'S') {
+				if (objResponse["result"] == 'S' || objResponse["result"] == 'success') {
 					alert("Thank you for submitting");
 					location.reload();
 				} else {
@@ -96,7 +96,7 @@
 		};
 		
 		var options = {
-			url : "./proc",
+			url : "https://script.google.com/macros/s/AKfycbwqI05-__Dzwqv5O09xIG85KARpn8S16Oa_h7LWt5D0SPf7bAnIsqjPEs1JbRaYe67J/exec",
 			type : "post",
 			dataType : 'json',
 			contentType: false,
@@ -113,7 +113,7 @@
 			}
 		};
 		
-		// frm.ajaxSubmit(options);
+		frm.ajaxSubmit(options);
 	}
 	// ]]>
 </script>
@@ -147,12 +147,12 @@
 	<nav id="menu" class="nav">
 		<button type="button" class="btn menu-open"><span class="blind">menu</span></button>
 		<ul class="gnb">
-			<li><a href="/web/story">Our Story</a></li><!--[D] li.on  -->
-			<li><a href="/web/value">Our Philosophy</a></li>
-			<li><a href="/web/tea/list">Our Tea</a></li>
-			<li><a href="/web/store/list">Our Stores</a></li>
-			<li><a href="/web/franchising/list">Franchise Opportunities</a></li>
-			<li class="on"><a href="/web/contact/list">Contact Us</a></li>
+			<li><a href="/web/about">Giới thiệu</a></li><!--[D] li.on  -->
+			<!-- <li><a href="/web/value">Sứ mệnh</a></li> -->
+			<li><a href="/web/tea/list">Trà của chúng tôi</a></li>
+			<li><a href="/web/menu/list">Menu</a></li>
+			<li><a href="/web/franchising/list">Cơ hội hợp tác</a></li>
+			<li><a href="/web/contact/list">Liên hệ</a></li>
 		</ul>
 		<button type="button" class="btn menu-close"><span class="blind">close</span></button>
 	</nav>
@@ -162,8 +162,8 @@
 			<div class="section head-bumper"></div>
 			<div class="section form-header" data-header-color="defult" data-header-fix="fixed">
 				<div class="content-wrap">
-					<p class="text-label wow fadeInUp">CONTACT US</p>
-					<h2 class="section-title medium wow fadeInUp" data-wow-delay="300ms">We’re happy <br class="only-mo">to hear from you</h2>
+					<p class="text-label wow fadeInUp">LIÊN HỆ</p>
+					<h2 class="section-title medium wow fadeInUp" data-wow-delay="300ms">Chúng tôi rất vui <br class="only-mo">nếu được kết nối cùng bạn</h2>
 				</div>
 			</div>
 			
@@ -172,44 +172,43 @@
 					<legend class="blind">partner form</legend>
 					<div class="field wow fadeInUp">
 						<input type="text" class="input-text" name="name" id="name" title="Name" data-null="not" required />
-						<label class="label" for="name">Name <span class="require">*</span></label>
+						<label class="label" for="name">Tên của bạn<span class="require">*</span></label>
 					</div>
 					<div class="field wow fadeInUp">
 						<input type="text" class="input-text" name="email" id="email" data-null="not" title="Email" required />
-						<label class="label" for="email">Email <span class="require">*</span></label>
+						<label class="label" for="email">Số điện thoại <span class="require">*</span></label>
 						<!--<p class="msg">This field is required.</p>-->
 						<!--[D] error시 상위 field addClass(error) P.msg 에러 메세지 -->
 					</div>
 					<div class="field wow fadeInUp">
 					<select class="select" name="subject" id="subject" data-null="not" title="select Subject">
-						<option value="" >Select</option>
+						<!-- <option value="" >Select</option> -->
+							<option value="Compliment">Khen ngợi</option>
 						
-							<option value="Compliment">Compliment</option>
+							<option value="Complaint">Than phiền</option>
 						
-							<option value="Complaint">Complaint</option>
+							<option value="Question">Thắc mắc</option>
 						
-							<option value="Question">Question</option>
-						
-							<option value="Other">Other</option>
+							<option value="Other">Vấn đề khác</option>
 						
 					</select>
-						<label class="label" for="subject">Subject <span class="require">*</span></label>
+						<label class="label" for="subject">Vấn đề phản hồi <span class="require">*</span></label>
 					</div>
 					<div class="field wow fadeInUp large">
 						<textarea class="textarea" name="message" id="message" data-null="not" title="message" rows="5" cols="50" required> </textarea>
-						<label class="label" for="message">Your Message <span class="require">*</span></label>
+						<label class="label" for="message">Nội dung phản hồi <span class="require">*</span></label>
 					</div>
 					<div class="field agree large wow fadeInUp">
 						<p>
-							The personal information you enter is <br class="only-tb">stored on a server in the TW.
+							Thông tin của bạn<br class="only-tb"> sẽ được lưu lại nhé.
 						</p>
 						<label>
 							<input type="checkbox" name="agree" id="agree">
-							<span>I agree</span>
+							<span>Đồng ý</span>
 						</label>
 					</div>
 					<div class="button-area wow fadeInUp">
-						<button type="submit" class="btn normal" onclick="javascript:fnProc(); return false;">Submit<i class="ico arr"></i></button>
+						<button type="submit" class="btn normal" onclick="javascript:fnProc(); return false;">Gửi Dear Tea<i class="ico arr"></i></button>
 					</div>
 				</fieldset>
 			</form>
@@ -244,31 +243,23 @@
 		<h2 class="logo"><span class="blind">Goncha</span></h2>
 		<div>
 			<ul>
-				<li><a href="/web/story">Our Story</a></li>
-				<li><a href="/web/value">Our Philosophy</a></li>
-				<li><a href="/web/tea/list">Our Tea</a></li>
-				<li><a href="/web/store/list">Our Stores</a></li>
-				<li><a href="/web/franchising/list">Franchise Opportunities</a></li>
-				<li><a href="/web/contact/list">Contact Us</a></li>
+				<li><a href="/web/about">Giới thiệu</a></li>
+				<!-- <li><a href="/web/value">Sứ mệnh</a></li> -->
+				<li><a href="/web/tea/list">Trà của chúng tôi</a></li>
+				<li><a href="/web/menu/list">Menu</a></li>
+				<li><a href="/web/franchising/list">Cơ hội hợp tác</a></li>
+				<li><a href="/web/contact/list">Liên hệ</a></li>
 			</ul>
 		</div>
 	</div>
 	<div class="copyright">
 		<p>
-			ⓒ 2021 Gong cha Global Ltd All Rights Reserved<br>
-			<!-- 2 Angel Square, London EC1V 1NY, United Kingdom<br>  -->
-			Unit 34a Waterside, 44-48 Wharf road, London, N1-7UX, United Kingdom<br>
-			Contact email : <a href="mailto:info@gong-cha.com">info@gong-cha.com</a><br>
-			Company registered NO.12070727<br>
-			Companies House | London | England VAT NO.338634579
+			Ⓡ 2022 Dear Tea - All Rights Reserved<br>
+			Sảnh S2.17, Vinhomes Ocean Park, Đa Tốn, Gia Lâm, Hà Nội<br>
+			Contact email : <a href="mailto:deartea.vn@gmail.com">deartea.vn@gmail.com</a><br>
+			Hotline 0975.666.874<br>
+			Chúng tôi trân trọng những giây phút bạn trao tặng<br>
 		</p>
-	</div>
-	<div class="txt-links">
-		<ul>
-			<li><a href="/web/privacy">Privacy Policy</a></li>
-			<li><a href="/web/modern">Modern Slavery Statement</a></li>
-			<li><a href="/web/add">Additional Policies</a></li>
-		</ul>
 	</div>
 </footer>
 </div>

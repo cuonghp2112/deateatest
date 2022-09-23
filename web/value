@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Gong cha Global</title>
+<title>Dear Tea - Trà sữa thực - hương vị thực</title>
 
 
 
@@ -61,12 +61,12 @@
 	<nav id="menu" class="nav">
 		<button type="button" class="btn menu-open"><span class="blind">menu</span></button>
 		<ul class="gnb">
-			<li><a href="/web/story">Our Story</a></li><!--[D] li.on  -->
-			<li class="on"><a href="/web/value">Our Philosophy</a></li>
-			<li><a href="/web/tea/list">Our Tea</a></li>
-			<li><a href="/web/store/list">Our Stores</a></li>
-			<li><a href="/web/franchising/list">Franchise Opportunities</a></li>
-			<li><a href="/web/contact/list">Contact Us</a></li>
+			<li><a href="/web/about">Giới thiệu</a></li><!--[D] li.on  -->
+			<!-- <li><a href="/web/value">Sứ mệnh</a></li> -->
+			<li><a href="/web/tea/list">Trà của chúng tôi</a></li>
+			<li><a href="/web/menu/list">Menu</a></li>
+			<li><a href="/web/franchising/list">Cơ hội hợp tác</a></li>
+			<li><a href="/web/contact/list">Liên hệ</a></li>
 		</ul>
 		<button type="button" class="btn menu-close"><span class="blind">close</span></button>
 	</nav>
@@ -75,8 +75,8 @@
 			<div class="section head-bumper"></div>
 			<div class="section values-header" data-header-color="defult" data-header-fix="fixed">
 				<div class="content-wrap">
-					<p class="text-label wow fadeInUp">Our Philosophy</p>
-					<h2 class="section-title medium wow fadeInUp" data-wow-delay="300ms">To inspire the <br class="only-mo">human spirit <br>and create <br class="only-mo">happiness.</h2>
+					<p class="text-label wow fadeInUp">Sứ mệnh</p>
+					<h2 class="section-title medium wow fadeInUp" data-wow-delay="300ms">Đem tới niềm vui <br class="only-mo"> và cảm hứng<br>cho bạn <br class="only-mo">mỗi ngày</h2>
 				</div>
 			</div>
 			<div class="section img-wrap wow fadeInUp" data-header-color="dark">
@@ -90,7 +90,7 @@
 					class="img" />
 			</div>
 			<div class="section list" data-header-color="defult">
-				<h3 class="line-title wow fadeInUp">Our Values</h3>
+				<h3 class="line-title wow fadeInUp">Giá trị chúng mình đem lại</h3>
 				<ul class="list">
 					<li>
 						<div class="item value">
@@ -137,7 +137,7 @@
 			</div>
 			<div class="section philosophy dark-mode  wow fadeInUp" data-header-color="dark">
 				<div class="content-wrap">
-					<h2 class="section-title medium wow fadeInUp" data-wow-delay="200ms">Positively <br class="only-mo">Impacting <br class="only-mo">the World</h2>
+					<h2 class="section-title medium wow fadeInUp" data-wow-delay="200ms">Cùng bạn tạo nên những <br class="only-mo"> câu chuyện  <br class="only-mo">tuyệt vời</h2>
 				</div>
 			</div>
 		</div>
@@ -164,31 +164,23 @@
 		<h2 class="logo"><span class="blind">Goncha</span></h2>
 		<div>
 			<ul>
-				<li><a href="/web/story">Our Story</a></li>
-				<li><a href="/web/value">Our Philosophy</a></li>
-				<li><a href="/web/tea/list">Our Tea</a></li>
-				<li><a href="/web/store/list">Our Stores</a></li>
-				<li><a href="/web/franchising/list">Franchise Opportunities</a></li>
-				<li><a href="/web/contact/list">Contact Us</a></li>
+				<li><a href="/web/about">Giới thiệu</a></li>
+				<!-- <li><a href="/web/value">Sứ mệnh</a></li> -->
+				<li><a href="/web/tea/list">Trà của chúng tôi</a></li>
+				<li><a href="/web/menu/list">Menu</a></li>
+				<li><a href="/web/franchising/list">Cơ hội hợp tác</a></li>
+				<li><a href="/web/contact/list">Liên hệ</a></li>
 			</ul>
 		</div>
 	</div>
 	<div class="copyright">
 		<p>
-			ⓒ 2021 Gong cha Global Ltd All Rights Reserved<br>
-			<!-- 2 Angel Square, London EC1V 1NY, United Kingdom<br>  -->
-			Unit 34a Waterside, 44-48 Wharf road, London, N1-7UX, United Kingdom<br>
-			Contact email : <a href="mailto:info@gong-cha.com">info@gong-cha.com</a><br>
-			Company registered NO.12070727<br>
-			Companies House | London | England VAT NO.338634579
+			Ⓡ 2022 Dear Tea - All Rights Reserved<br>
+			Sảnh S2.17, Vinhomes Ocean Park, Đa Tốn, Gia Lâm, Hà Nội<br>
+			Contact email : <a href="mailto:deartea.vn@gmail.com">deartea.vn@gmail.com</a><br>
+			Hotline 0975.666.874<br>
+			Chúng tôi trân trọng những giây phút bạn trao tặng<br>
 		</p>
-	</div>
-	<div class="txt-links">
-		<ul>
-			<li><a href="/web/privacy">Privacy Policy</a></li>
-			<li><a href="/web/modern">Modern Slavery Statement</a></li>
-			<li><a href="/web/add">Additional Policies</a></li>
-		</ul>
 	</div>
 </footer>
 </div>
